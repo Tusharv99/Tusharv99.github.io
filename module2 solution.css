@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:lightcyan;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 175%;
+    color: #1F6357;
+}
+section{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+div{
+    position: relative;
+    background-color:#CFECEC;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.s1{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: rgb(190, 240, 179);
+}
+.s2{
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(190, 240, 179);
+}
+.s1{
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: rgb(190, 240, 179);
+}
+.content{
+    padding: 5px;
+    border: none;
+    background-color: rgb(162, 245, 213);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin:0px;
+    height: 200px;
+    overflow: auto;
+    clear: right;
+}
+.row{
+    width: 90%;
+}
+/*dextop version*/
+@media(min-width:992px){
+    .column-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+/*tablet version*/
+@@media(min-width:768px)and(max-width:991px){
+    .column-md-6{
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12{
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*mobile version*/
+@media (max-width: 767px){
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
